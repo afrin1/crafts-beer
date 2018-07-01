@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BeerCraft</string>
+    <string name="sort_by">Sort by Alcohol Content</string>
+    <string name="added_to_cart">Item Added to Cart</string>
+    <string name="cart">Cart</string>
+    <string name="place_order">Place Order</string>
+    <string name="order_placed">Order Placed</string>
+</resources>

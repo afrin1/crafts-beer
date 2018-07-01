@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/add"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:background="#ffffff"
+        android:src="@drawable/ic_add"
+        android:layout_alignParentRight="true"/>
+
+    <ImageButton
+        android:id="@+id/beer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:background="#ffffff"
+        android:src="@drawable/ic_beer"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/customPrimary"
+        android:textSize="20dp"
+        android:text="sample"
+        android:layout_toRightOf="@id/beer"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/style"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/beer"
+        android:textSize="17dp"
+        android:text="sample" />
+
+    <TextView
+        android:id="@+id/abv"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/beer"
+        android:text="sample"
+        android:textSize="15dp"
+        android:layout_below="@id/style" />
+
+</RelativeLayout>
